@@ -1,0 +1,207 @@
+html, body {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.container-fluid {
+	padding: 0;
+	background-color: #175C4A;
+}
+
+.logo {
+	margin-top: 13px;
+	margin-left: 98px;	
+}
+
+
+.top__text {
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 23px;
+	letter-spacing: 0em;
+	padding-top: 95px;
+}
+
+.button__text {
+	
+	padding-top: 70px;
+}
+
+
+.second__text {
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+}
+
+.first__text {
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+}
+
+
+.input__number {
+	width: 300px;
+	
+}
+
+.form-control {
+	border: 2px solid #175C4A;
+}
+
+.get__code {
+	border: 3px solid #175C4A;
+	margin-right: 200px;
+	border-radius: 30px;
+	margin-top: 30px;
+
+}
+
+.code__text {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 23px;
+	letter-spacing: 0em;
+	color: #175C4A;
+}
+
+.code__text:hover {
+	color: #fff;
+}
+
+.get__code:hover {
+	background-color: #FDB20E;
+	transition: background 0.5s;
+}
+
+.bottom__text {
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	margin-top: 57px;
+	color: grey;
+}
+
+.bottom__bottom {
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px;
+	color: black;
+}
+
+.reg {
+	width: 250px;
+	background-color: #fff;
+	margin-top: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 30px;
+	border: 3px solid #175C4A;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #175C4A;
+}
+
+.reg:hover {
+	background-color: #FDB20E;
+	color: #fff;
+}
+
+
+@media screen and (min-width:801px) and (max-width:1194px) {
+	.logo {
+		margin-top: 13px;
+		margin-left: 62px;
+	}
+}
+
+
+@media screen and (min-width:376px) and (max-width:800px) {
+	.logo {
+		margin-top: 13px;
+		margin-left: 32px;
+	}
+}
+
+
+@media screen and (max-width:521px) {
+	.top__text {
+		font-size: 16px;
+		padding-left: 20px;
+	}
+	.first__text {
+		font-size: 14px;
+	}
+	.button__text {
+		padding-left: 20px;
+	}
+	.input__number {
+		padding-left: 20px;
+	}
+	.get__code{
+		margin-left: 20px;
+	}
+	.bottom__text {
+		padding-left: 20px;
+	}
+	.code__text {
+		font-size: 16px;
+	}
+	.bottom__bottom {
+		font-family: Roboto;
+		font-size: 14px;
+	}
+}
+
+
+@media screen and (max-width:391px) {
+	.top__text {
+		font-size: 14px;
+	}
+}
+
+
+
+@media screen and (max-width:375px) {
+  	.logo {
+		margin-top: 22px;
+		margin-left: 9px;
+	}
+	.logo__img {
+		width: 197px;
+		height: 37px;
+	}
+}
